@@ -1,0 +1,56 @@
+enter stack_ok
+enter stack_ok
+enter stack_ok
+enter stack_ok
+enter stack_ok
+enter stack_ok
+enter stack_ok
+enter stack_ok
+enter stack_ok
+enter stack_ok
+enter stack_ok
+enter stack_ok
+enter stack_ok
+enter stack_ok
+enter stack_ok
+enter stack_ok
+enter stack_ok
+enter stack_ok
+enter stack_ok
+enter stack_ok
+enter stack_ok
+enter stack_ok
+enter stack_ok
+enter stack_ok
+		[0]: 0.000000
+		[1]: 1.000000
+		[2]: 2.000000
+		[3]: 3.000000
+		[4]: 4.000000
+		[5]: 5.000000
+		[6]: 6.000000
+		[7]: 7.000000
+		[8]: 8.000000
+		[9]: 9.000000
+		[10]: 10.000000
+		[11]: nan
+		[12]: nan
+		[13]: nan
+		[14]: nan
+		[15]: nan
+		[16]: nan
+		[17]: nan
+		[18]: nan
+		[19]: nan
+
+********************************************STACK DUMP********************************************
+		  Stack is OK!
+Struct left  canary[0x7ffc2caf02a0] = -666
+Stack  size                         = 11
+Stack  capacity                     = 20
+Array  left  canary[0x559f43727480] = -666
+Stack  data        [0x559f43727488]
+Array  right canary[0x559f43727528] = -666
+Struct right canary[0x7ffc2caf02d8] = -666
+**************************************************************************************************
+enter stack_ok
