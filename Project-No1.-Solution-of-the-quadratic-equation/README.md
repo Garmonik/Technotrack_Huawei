@@ -103,15 +103,15 @@ int is_zero(double value){
 Теперь рассмотрим функцию тестирования. Она написана с помощью макроса:
 
 ```C++
-#define TEST( a, b, c, x1, x2, counter)                                     \
-                square_eq (a, b, c, x_1, x_2);                              \
-                if((x1 == *x_1) && (x2 == *x_2))                            \
-                        printf("TEST №%d OK!\n", counter);                  \
-                else{                                                       \
-                        printf("TEST №%d NOT OK!!!\n", counter);            \
-                        printf("True res X1 = %lf, X2 = %lf\n", x1, x2);    \
-                        printf("You res x1* = %lf, x2* = %lf/n", x_1, x_2); \
-                }                                                           \
+#define TEST( a, b, c, x1, x2, counter)                                     
+                square_eq (a, b, c, x_1, x_2);                              
+                if((x1 == *x_1) && (x2 == *x_2))                            
+                        printf("TEST №%d OK!\n", counter);                 
+                else{                                                       
+                        printf("TEST №%d NOT OK!!!\n", counter);            
+                        printf("True res X1 = %lf, X2 = %lf\n", x1, x2);    
+                        printf("You res x1* = %lf, x2* = %lf/n", x_1, x_2); 
+                }                                                           
 ```
 
 ## Документация ##
